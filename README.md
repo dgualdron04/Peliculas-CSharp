@@ -23,8 +23,8 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 
 <h2 id="install"> Como instalar el proyecto </h2>
 <ul>
-<li>Para instalar el proyecto primero tienes que ir al github en el que se encuentra este y descargarlo como zip, ver Recurso 1.<br></li>
-
+<li>Para instalar el proyecto primero tienes que ir al github en el que se encuentra este y descargarlo como zip, ver Recurso 1.</li>
+<br>
 <img src="http://g.recordit.co/x1h0WN73N0.gif" alt="Instalar Software" id="recurso1" width="550px"></img>
 
 ###### Recurso 1. Ejemplo de como descargar el proyecto.
