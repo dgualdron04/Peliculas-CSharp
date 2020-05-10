@@ -1,6 +1,9 @@
-# Registro temporal de datos de películas
+# Registro temporal de los datos de las películas
 
-Este es un pequeño proyecto creado en el lenguaje de programación c#, trata sobre el registro de películas almacenando temporalmente datos como nombre de la pelicula, genero, duracion en minutos, director, idioma y si esta se encuentra subtitulada. A la hora de almacenar estos datos se creara una tabla y una grafica, la tabla almacenara el nombre de la pelicula y si esta se encuentra activa, además de tener un botón, si lo accionamos nos desplegara todos los datos de la pelicula y así podremos editarlos, la grafica nos mostrara por medio grafico la relacion de la pelicula con respecto a la duración, todas las peliculas ingresadas se estaran comparando en una sola grafica.
+Este es un proyecto estudiantil, creado netamente en el lenguaje c# que consiste sobre un registro de películas en el que se almacenan temporalmente todos sus datos como lo serian el nombre de la película, su género, la duración en minutos, su director, el idioma en que se encuentra y si esta se encuentra subtitulada o no. Al momento de almacenar estos datos pertinentes se creará una tabla y una grafica al mismo tiempo. 
+La tabla almacenara cada uno de los nombres de las diferentes películas ingresadas, así como si esta se encuentra activa o no, en diferentes listas. Además de eso en cada una de las listas, abra un botón, en donde si lo accionamos, nos desplegará todos los datos que hayan sido introducidos y sean referentes a esa película, y nos permitirá modificarlos a nuestro antojo, para seguido guardarlos y actualizar la lista en cuestión.
+En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entre la relación del nombre de cada una de las diferentes películas que se encuentran en las listas y sus respectivas duraciones. En caso tal de que se modifique el nombre o la duración de la película, también lo hará en la gráfica. Todo esto lo realizara en un mismo graficador automático. Así mismo esta grafica contara con un botón de etiqueta en donde si se oprime se ocultarán o se visualizaran todos los datos de las duraciones que se encuentren actualmente en la gráfica. 
+
 
 
 
@@ -9,7 +12,7 @@ Este es un pequeño proyecto creado en el lenguaje de programación c#, trata so
 <ul>
   <li><a href="#install">Como instalar el proyecto </a></li>
   <li><a href="#proyectofun">Funcionalidades del proyecto</a></li>
-  <li><a href="#dlls">Sobre los dlls</a>
+  <li><a href="#dlls">Sobre los Dlls</a>
           <ul>
             <li><a href="#dllraiz">Dll Raiz de un numero</a></li>
             <li><a href="#dllgraficador">Dll Graficador</a></li>
@@ -140,5 +143,5 @@ Aquí un ejemplo de como se Agregan diversas barras a la grafica cuando se ingre
 
 <h2 id="autores">Autores</h2>
 
-<strong>Carlos Mauricio Chinchilla Rosales</strong> - <a href="https://github.com/Cchinchilla3" target="_blank">Cchinchilla3</a> <br>
-<strong>Diego Andrés Gualdrón Angarita </strong> - <a href="https://github.com/dgualdron04" target="_blank">dgualdron04</a> <br>
+<strong>Carlos Mauricio Chinchilla Rosales</strong> - <a href="https://github.com/Cchinchilla3">Cchinchilla3</a> <br>
+<strong>Diego Andrés Gualdrón Angarita </strong> - <a href="https://github.com/dgualdron04">dgualdron04</a> <br>
