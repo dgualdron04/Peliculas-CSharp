@@ -127,4 +127,13 @@ Anteriormente hablabamos de la raiz de un numero, ahora hablamos del proceso que
 Aquí un ejemplo de la logica que implementa este DLL:
 
 <img src="http://g.recordit.co/aG7Y1AxqNw.gif" alt="Logica Raiz de un Numero"></img>
-###### Recurso 8. Ejemplo de la logica que implementa el DLL.
+###### Recurso 9. Ejemplo de la logica que implementa el DLL.
+
+<h3 id="dllgraficador"> Dll Graficador </h3>
+
+Este DLL tiene muchas funcionalidades con respecto a las graficas, este es el que nos ayuda dentro del software a crear diversos tipos de tablas, nosotros lo usamos para crear diversas barras con respecto al nombre y duracion de la pelicula, en este caso la logica que usa el DLL en nuestro software, al momento de ingresar una pelicula este DLL se encarga de tomar el dato del nombre y de la duración y los pone en "X" y "Y", X para el nombre de la pelicula y Y para la duración de esta.
+
+Aquí un ejemplo de como se Agregan diversas barras a la grafica cuando se ingresa una pelicula:
+
+<img src="http://g.recordit.co/ce4cIrbniA.gif" alt="Barras de la grafica"></img>
+###### Recurso 10. Ejemplo de como se Agregar diversas barras a la grafica cuando se ingresa una pelicula.
