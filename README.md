@@ -11,8 +11,8 @@ Este es un pequeño proyecto creado en el lenguaje de programación c#, trata so
   <li><a href="#proyectofun">Funcionalidades del proyecto</a></li>
   <li><a href="#dlls">Sobre los dlls</a>
           <ul>
-            <li><a href="dllraiz">Dll Raiz de un numero</a></li>
-            <li><a href="dllgraficador">Dll Graficador</a></li>
+            <li><a href="#dllraiz">Dll Raiz de un numero</a></li>
+            <li><a href="#dllgraficador">Dll Graficador</a></li>
           </ul>
   </li>
   <li><a href="#autores">Autores</a></li>
