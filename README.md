@@ -23,7 +23,7 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 
 <h2 id="install"> Como instalar el proyecto </h2>
 <ul>
-<li>Para instalar el proyecto primero tienes que ir al github en el que se encuentra este y descargarlo como zip,para mas informacion ir al <a href="#recurso1">Recurso 1</a></li>
+<li>Para instalar el proyecto primero tienes que ir al github en el que se encuentra este y descargarlo como zip, para mas informacion ir al <a href="#recurso1">Recurso 1</a></li>
 <br>
   <div id="recurso1">
 <img src="http://g.recordit.co/x1h0WN73N0.gif" alt="Instalar Software" id="recurso1" width="550px"></img>
@@ -32,9 +32,9 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 ###### Recurso 1. Ejemplo de como descargar el proyecto.
 
 <li>Después tienes que descomprimirlo en una carpeta y ya tendrias dentro de tu ordenador nuestro proyecto, ver Recurso 2.</li>
-
+<div id="recurso2">
 <img src="http://g.recordit.co/QzXpqnByV7.gif" alt="Descomprimir Software" id="recurso2" width="550px"></img>
-
+</div>
 ###### Recurso 2. Ejemplo de como descomprimir el proyecto.
 
 <li>Por ultimo tienes que ejecutar el programa para esto solo tienes que abrir al archivo llamado <b> "Trabajo1Corte" </b> que se encuentra en la carpeta que descomprimimos anteriormente, ver Recurso 3. </li>
