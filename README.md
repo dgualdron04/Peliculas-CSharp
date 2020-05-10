@@ -140,5 +140,5 @@ Aquí un ejemplo de como se Agregan diversas barras a la grafica cuando se ingre
 
 <h2 id="autores">Autores</h2>
 
-Carlos Mauricio Chinchilla Rosales - @Cchinchilla3
-Diego Andrés Gualdrón Angarita - @dgualdron04
+<strong>Carlos Mauricio Chinchilla Rosales</strong> - <a href="https://github.com/Cchinchilla3">Cchinchilla3</a> <br>
+<strong>Diego Andrés Gualdrón Angarita </strong> - <a href="https://github.com/dgualdron04">dgualdron04</a> <br>
