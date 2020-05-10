@@ -11,8 +11,8 @@ Este es un pequeño proyecto creado en el lenguaje de programación c#, trata so
   <li><a href="#proyectofun">Funcionalidades del proyecto</a></li>
   <li><a href="#dlls">Sobre los dlls</a>
           <ul>
-            <li>Dll Raiz de un numero</li>
-            <li>Dll Graficador</li>
+            <li><a href="dllraiz">Dll Raiz de un numero</a></li>
+            <li><a href="dllgraficador">Dll Graficador</a></li>
           </ul>
   </li>
   <li><a href="#autores">Autores</a></li>
@@ -20,23 +20,23 @@ Este es un pequeño proyecto creado en el lenguaje de programación c#, trata so
 
 <h2 id="install"> Como instalar el proyecto </h2>
 <ul>
-<li>Para instalar el proyecto primero tienes que ir al github en el que se encuentra este y descargarlo como zip, ver Recurso 1.
+<li>Para instalar el proyecto primero tienes que ir al github en el que se encuentra este y descargarlo como zip, ver Recurso 1.</li>
 
-<img src="http://g.recordit.co/x1h0WN73N0.gif" alt="Instalar Software" id="recurso1" width="550px">
+<img src="http://g.recordit.co/x1h0WN73N0.gif" alt="Instalar Software" id="recurso1" width="550px"></img>
 
-###### Recurso 1. Ejemplo de como descargar el proyecto.</img></li>
+###### Recurso 1. Ejemplo de como descargar el proyecto.
 
-<li>Después tienes que descomprimirlo en una carpeta y ya tendrias dentro de tu ordenador nuestro proyecto, ver Recurso 2.
+<li>Después tienes que descomprimirlo en una carpeta y ya tendrias dentro de tu ordenador nuestro proyecto, ver Recurso 2.</li>
 
-<img src="http://g.recordit.co/QzXpqnByV7.gif" alt="Descomprimir Software" id="recurso2" width="550px">
+<img src="http://g.recordit.co/QzXpqnByV7.gif" alt="Descomprimir Software" id="recurso2" width="550px"></img>
 
-###### Recurso 2. Ejemplo de como descomprimir el proyecto.</img></li>
+###### Recurso 2. Ejemplo de como descomprimir el proyecto.
 
-<li>Por ultimo tienes que ejecutar el programa para esto solo tienes que abrir al archivo llamado <b> "Trabajo1Corte" </b> que se encuentra en la carpeta que descomprimimos anteriormente, ver Recurso 3. 
+<li>Por ultimo tienes que ejecutar el programa para esto solo tienes que abrir al archivo llamado <b> "Trabajo1Corte" </b> que se encuentra en la carpeta que descomprimimos anteriormente, ver Recurso 3. </li>
 
-<img src="http://g.recordit.co/9C1RQpxNeo.gif" alt="Abrir el Software" id="recurso2" width="450px">
+<img src="http://g.recordit.co/9C1RQpxNeo.gif" alt="Abrir el Software" id="recurso2" width="450px"></img>
 
-###### Recurso 3. Ejemplo de abrir el proyecto.</img></li>
+###### Recurso 3. Ejemplo de abrir el proyecto.
 
 <h2 id="proyectofun"> Funcionalidades del proyecto </h2>
 <ul>
@@ -107,13 +107,24 @@ Aquí un ejemplo de como cambiar la configuración del software:
 
 <h3 id="raiznum"> Calcular la raiz de un numero </h3>
 
-Además de agregar peliculas este software también permite calcular la raíz de un numero, que es la raiz de un numero, esta es la suma de sus digitos por ejemplo, supongamos que tenemos el numero 123, la raiz de este seria 6, esto es porque 1 + 2 + 3 = 6.
+Además de agregar peliculas este software también permite calcular la raíz de un numero, que es la raiz de un numero, esta es la suma de sus digitos hasta que el resultado solo sea 1 digito por ejemplo, supongamos que tenemos el numero 123, la raiz de este seria 6, esto es porque 1 + 2 + 3 = 6, otro ejemplo seria 999, el resultado de este es 9, esto es porque 9 + 9 + 9 = 27 y 2 + 7 = 9, osea que si el primer resultado da un numero que sea mayor o igual a dos digitos este tendra que volver a hacer la suma con el resultado obtenido hasta llegar a un numero de un solo digito.
 
 Aquí un ejemplo de como sacar la raiz de un numero:
 
-<img src="http://g.recordit.co/4aIqLrpj6P.gif" alt="Cambiar Color"></img>
+<img src="http://g.recordit.co/4aIqLrpj6P.gif" alt="Raiz de un numero"></img>
 ###### Recurso 8. Ejemplo de como sacar la raiz de un numero.
 
 El software también cuenta con un apartado de créditos en los cuales se le hace alución a los creadores de este software, y también cuenta con un apartado de Ayuda, esto para que las personas que tengan algun problema o alguna duda sobre este, puedan enviar su petición de ayuda a los creados de este software.
 
 <h2 id="dlls"> Sobre los Dlls</h2>
+
+Nuestro software cuenta con dos Dlls, estos tienen diferentes funcionalidades por si solos, para nuestro proyecto solo implementamos algunas de estas funcionalidades, para así lograr una funcionalidad más optima dentro de nuestro software.
+
+<h3 id="dllraiz"> Dll Raiz de un Numero </h3>
+
+Anteriormente hablabamos de la raiz de un numero, ahora hablamos del proceso que conlleva hacer este, para sacar la raiz numero como deciamos anteriormente tenemos que sumar todos sus digitos para esto hay que hacer un proceso en el cual hay que verificar cuantos numeros hay en este para que así sume los digitos necesarios y si es el caso volver a sumarlo, cuando se produce esta otra suma, esta se origina cuando el resultado del primer numero sumado es mayor o igual a 2 digitos, si esto es así el programa sumara de nuevo el resultado hasta llegar a 1 solo digito.
+
+Aquí un ejemplo de la logica que implementa este DLL:
+
+<img src="http://g.recordit.co/aG7Y1AxqNw.gif" alt="Logica Raiz de un Numero"></img>
+###### Recurso 8. Ejemplo de la logica que implementa el DLL.
