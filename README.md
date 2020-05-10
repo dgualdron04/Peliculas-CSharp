@@ -1,4 +1,4 @@
-# Registro temporal de los datos de las películas
+# Registro temporal de los datos de una película
 
 Este es un proyecto estudiantil, creado netamente en el lenguaje c# que consiste sobre un registro de películas en el que se almacenan temporalmente todos sus datos como lo serian el nombre de la película, su género, la duración en minutos, su director, el idioma en que se encuentra y si esta se encuentra subtitulada o no. Al momento de almacenar estos datos pertinentes se creará una tabla y una grafica al mismo tiempo.<br><br> 
 La tabla almacenara cada uno de los nombres de las diferentes películas ingresadas, así como si esta se encuentra activa o no, en diferentes listas. Además de eso en cada una de las listas, abra un botón, en donde si lo accionamos, nos desplegará todos los datos que hayan sido introducidos y sean referentes a esa película, y nos permitirá modificarlos a nuestro antojo, para seguido guardarlos y actualizar la lista en cuestión.<br><br>
