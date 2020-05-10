@@ -136,7 +136,7 @@ Este DLL tiene muchas funcionalidades con respecto a las graficas, este es el qu
 Aquí un ejemplo de como se Agregan diversas barras a la grafica cuando se ingresa una pelicula:
 
 <img src="http://g.recordit.co/ce4cIrbniA.gif" alt="Barras de la grafica"></img>
-###### Recurso 10. Ejemplo de como se Agregar diversas barras a la grafica cuando se ingresa una pelicula.
+###### Recurso 10. Ejemplo de como se Agregan diversas barras a la grafica cuando se ingresa una pelicula.
 
 <h2 id="autores">Autores</h2>
 
