@@ -84,7 +84,7 @@ Aquí un ejemplo de la grafica y el botón etiqueta:
 
 <h3 id="idiomapel"> Cambiar el idioma del Software </h3>
 
-Una de las funcionalidades de este software es que puedes alternar entre varios idiomas, para cambiar el idioma tan solo basta con ir a la derecha inferior a donde dice "idioma", en este se desplegara una lista que con tan solo poner el idioma que quieres ya se cambiara en todo el software.
+Otra de las funcionalidades que posee este software, es que puedes alternar entre varios idiomas. Para cambiar el idioma tan solo basta con ir a la parte inferior derecha donde dice "Cambiar Idioma", en este se desplegará una lista con unos idiomas ya establecidos en el software y que al momento de elegir uno, todo el programa se cambiará automáticamente a ese idioma. 
 
 Idiomas incluidos en el software:
 <ul> <li>Español</li>
@@ -105,7 +105,7 @@ Aquí un ejemplo de como cambiar el idioma:
 
 <h3 id="configpel"> Cambiar la configuración del Software </h3>
 
-Una de las funcionalidades de este software es que puedes configurarlo a tu gusto, por el momento solo esta la opcion de cambiar el color, proximamente agregaremos otras funcionas.
+Así mismo otra funcionalidad del software, es el poder configurarlo al gusto del usuario. Por el momento solo está habilitada la opción del cambio de color, es decir, cambiara el color de todo el programa dependiendo del escogido por el usuario. Próximamente se implementarán más opciones de configuración.
 
 Aquí un ejemplo de como cambiar la configuración del software:
 
@@ -114,7 +114,9 @@ Aquí un ejemplo de como cambiar la configuración del software:
 
 <h3 id="raiznum"> Calcular la raíz de un numero</h3>
 
-Además de agregar peliculas este software también permite calcular la raíz de un numero, que es la raiz de un numero, esta es la suma de sus digitos hasta que el resultado solo sea 1 digito por ejemplo, supongamos que tenemos el numero 123, la raiz de este seria 6, esto es porque 1 + 2 + 3 = 6, otro ejemplo seria 999, el resultado de este es 9, esto es porque 9 + 9 + 9 = 27 y 2 + 7 = 9, osea que si el primer resultado da un numero que sea mayor o igual a dos digitos este tendra que volver a hacer la suma con el resultado obtenido hasta llegar a un numero de un solo digito.
+Además de agregar películas, este software también permite calcular la raíz de un numero por medio de un DLL implementado.<br><br> 
+Pero antes de continuar….¿Qué es la raíz de un numero? Es la suma de sus dígitos hasta que el resultado sea solo un digito, por ejemplo, supongamos que tenemos el número 123, la raíz de este seria 6, esto es porque 1 + 2 + 3 = 6, otro ejemplo seria 999, el resultado de este es 9, esto es porque 9 + 9 + 9 = 27 y 2 + 7 = 9, ósea que si el primer resultado da un número que sea mayor o igual a dos dígitos este tendrá que volver a hacer la suma con el resultado obtenido hasta llegar a un numero de un solo digito.
+
 
 Aquí un ejemplo de como sacar la raiz de un numero:
 
