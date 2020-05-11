@@ -47,42 +47,42 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 
 <h2 id="proyectofun"> Funcionalidades del proyecto </h2>
 <ul>
-  <li><a href="#aggpel"> Agregar y listar peliculas </a></li>
-  <li><a href="#editpel"> Editar peliculas listadas </a></li>
-  <li><a href="#graficapel"> Graficador con relacion pelicula - duracion </a></li>
-  <li><a href="#idiomapel"> Cambiar idioma del Software </a></li>
-  <li><a href="#configpel"> Cambiar configuracion del Software </a></li>
-  <li><a href="#raiznum"> Calcular la raiz de un numero</a> </li>
+  <li><a href="#aggpel"> Agregar y listar películas </a></li>
+  <li><a href="#editpel"> Editar películas listadas </a></li>
+  <li><a href="#graficapel"> Graficador nombre de la película contra la duración de la misma </a></li>
+  <li><a href="#idiomapel"> Cambiar el idioma del Software </a></li>
+  <li><a href="#configpel"> Cambiar la configuración del Software </a></li>
+  <li><a href="#raiznum"> Calcular la raíz de un numero </a> </li>
 </ul>
 
-<h3 id="aggpel"> Agregar y listar peliculas </h3>
+<h3 id="aggpel"> Agregar y listar películas </h3>
 
-El usuario podra agregar tantas peliculas como quiera, para esto tendra que ingresar el nombre, el genero, la duración en minutos, el director, el idioma y si esta subtitulada o no.
+El usuario podrá agregar tantas películas como desee, para esto tendrá que ingresar el nombre de la película, su género, la duración en minutos de esta, su director, el idioma en que se encuentra (Teniendo algunos de base o si el usuario desea ingresar el suyo) y si la película esta subtitulada o no.
 
 Aquí un ejemplo de como se ingresaran los datos:
 
 <img src="http://g.recordit.co/pzKkKEthDc.gif" alt="Agregar una pelicula"></img>
 ###### Recurso 4. Ejemplo de como se deben agregar las peliculas
 
-<h3 id="editpel"> Editar peliculas listadas </h3>
+<h3 id="editpel"> Editar películas listadas </h3>
 
-Del mismo que el usuario puede agregar peliculas tambien las puede editar, para esto solo es necesario darle al botón mostrar, este pondra los datos que ingresamos para esa pelicula y también podemos editar estos, los cuales se guardaran temporalmente y editaran todo lo relacionado a ellos.
+Del mismo modo que el usuario puede agregar películas, también las puede editar, para esto solo es necesario darle al botón mostrar en una de las listas, este nos mostrará los datos ingresados anteriormente con respecto a esa lista, y así mismo el usuario podrá editarlos. Al darle al botón de actualizar, los nuevos datos o los que no hayan sufrido cambio alguno se volverán a guardar temporalmente en esa lista, en caso de que se quieran volver a modificar.
 
-Aquí un ejemplo de como editar datos de una pelicula:
+Aquí un ejemplo de como editar los datos de una pelicula:
 
 <img src="http://g.recordit.co/tz3Xi3Hq18.gif" alt="Editar datos de una pelicula"></img>
 ###### Recurso 4. Ejemplo de como se deben editar los datos de una pelicula
 
-<h3 id="graficapel"> Graficador con relacion pelicula - duracion </h3>
+<h3 id="graficapel"> Graficador nombre de la película contra la duración de la misma </h3>
 
-A la hora de crear una pelicula también se creara una grafica, esta grafica nos mostrara dos datos, el nombre de la pelicula y su duracion, cada pelicula agregada se pondra en la grafica una junto a otra para así poder comparar los tiempos de duración de cada pelicula, en la grafica hay un boton llamado etiqueta, este sirve para esconder o mostrar la duración que aparece sobre la grafica.
+A la hora de ingresar una película también se creará una gráfica. Esta grafica nos mostrara dos datos, el nombre de la película y su duración en minutos. Cada película agregada se ubicará en la gráfica una junto a otra para así poder comparar los tiempos de duración de cada una. Por otro lado en la grafica habrá un botón de nombre “etiqueta”, el cual sirve para esconder o visualizar la duración de las películas de una forma mas precisa.
 
 Aquí un ejemplo de la grafica y el botón etiqueta:
 
 <img src="http://g.recordit.co/KILIHK9SEo.gif" alt="Botón etiqueta de la grafica"></img>
 ###### Recurso 5. Ejemplo de la grafica y el botón etiqueta.
 
-<h3 id="idiomapel"> Cambiar idioma del Software </h3>
+<h3 id="idiomapel"> Cambiar el idioma del Software </h3>
 
 Una de las funcionalidades de este software es que puedes alternar entre varios idiomas, para cambiar el idioma tan solo basta con ir a la derecha inferior a donde dice "idioma", en este se desplegara una lista que con tan solo poner el idioma que quieres ya se cambiara en todo el software.
 
@@ -103,7 +103,7 @@ Aquí un ejemplo de como cambiar el idioma:
 ###### Recurso 6. Ejemplo de como cambiar el idioma.
 
 
-<h3 id="configpel"> Cambiar configuracion del Software </h3>
+<h3 id="configpel"> Cambiar la configuración del Software </h3>
 
 Una de las funcionalidades de este software es que puedes configurarlo a tu gusto, por el momento solo esta la opcion de cambiar el color, proximamente agregaremos otras funcionas.
 
@@ -112,7 +112,7 @@ Aquí un ejemplo de como cambiar la configuración del software:
 <img src="http://g.recordit.co/jx7Qaa9DBA.gif" alt="Cambiar Color"></img>
 ###### Recurso 7. Ejemplo de como cambiar las configuraciones.
 
-<h3 id="raiznum"> Calcular la raiz de un numero </h3>
+<h3 id="raiznum"> Calcular la raíz de un numero</h3>
 
 Además de agregar peliculas este software también permite calcular la raíz de un numero, que es la raiz de un numero, esta es la suma de sus digitos hasta que el resultado solo sea 1 digito por ejemplo, supongamos que tenemos el numero 123, la raiz de este seria 6, esto es porque 1 + 2 + 3 = 6, otro ejemplo seria 999, el resultado de este es 9, esto es porque 9 + 9 + 9 = 27 y 2 + 7 = 9, osea que si el primer resultado da un numero que sea mayor o igual a dos digitos este tendra que volver a hacer la suma con el resultado obtenido hasta llegar a un numero de un solo digito.
 
