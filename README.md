@@ -31,16 +31,16 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 
 ###### Recurso 1. Ejemplo de como descargar el proyecto.
 
-<li>Después descomprimir los archivos en una carpeta y tendrás el proyecto en cuestión, en caso de no quedar claro <a href="#recurso2"> ver Recurso 2</a></li>
+<li>Después descomprimir los archivos en una carpeta y tendrás el proyecto en cuestión, en caso de no quedar claro ver <a href="#recurso2"> Recurso 2</a></li><br>
 <div id="recurso2">
 <img src="http://g.recordit.co/QzXpqnByV7.gif" alt="Descomprimir Software" id="recurso2" width="550px"></img>
 </div>
 ###### Recurso 2. Ejemplo de como descomprimir el proyecto.
 
-<li>Por ultimo tienes que ejecutar el programa para esto solo tienes que abrir al archivo llamado <b> "Trabajo1Corte" </b> que se encuentra en la carpeta que descomprimimos anteriormente, ver Recurso 3. </li>
-
+<li>Por ultimo, ejecutar el programa. Para esto solo tienes que abrir al archivo llamado <b> "Trabajo1Corte" </b> que se encuentra en la carpeta que descomprimimos anteriormente, ver <a href="#recurso3">Recurso 3 </a></li><br>
+<div id="recurso3">
 <img src="http://g.recordit.co/9C1RQpxNeo.gif" alt="Abrir el Software" id="recurso2" width="450px"></img>
-
+</div>
 ###### Recurso 3. Ejemplo de abrir el proyecto.
 
 <h2 id="proyectofun"> Funcionalidades del proyecto </h2>
