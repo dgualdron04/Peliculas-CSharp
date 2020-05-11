@@ -31,7 +31,7 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 
 ###### Recurso 1. Ejemplo de como descargar el proyecto.
 
-<li>Después tienes que descomprimirlo en una carpeta y ya tendrias dentro de tu ordenador nuestro proyecto, ver Recurso 2.</li>
+<li>Después descomprimir los archivos en una carpeta y tendrás el proyecto en cuestión, en caso de no quedar claro <a href="#recurso2"> ver Recurso 2</a></li>
 <div id="recurso2">
 <img src="http://g.recordit.co/QzXpqnByV7.gif" alt="Descomprimir Software" id="recurso2" width="550px"></img>
 </div>
