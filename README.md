@@ -31,7 +31,7 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 
 ###### Recurso 1. Ejemplo de como descargar el proyecto.
 
-<li>Después descomprimir los archivos en una carpeta y tendrás el proyecto en cuestión, en caso de no quedar claro ver <a href="#recurso2"> Recurso 2</a></li><br>
+<br><li>Después descomprimir los archivos en una carpeta y tendrás el proyecto en cuestión, en caso de no quedar claro ver <a href="#recurso2"> Recurso 2</a></li><br>
 <div id="recurso2">
 <img src="http://g.recordit.co/QzXpqnByV7.gif" alt="Descomprimir Software" id="recurso2" width="550px"></img>
 </div>
@@ -45,7 +45,7 @@ En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entr
 
 ###### Recurso 3. Ejemplo de abrir el proyecto.
 
-<h2 id="proyectofun"> Funcionalidades del proyecto </h2>
+<br><h2 id="proyectofun"> Funcionalidades del proyecto </h2>
 <ul>
   <li><a href="#aggpel"> Agregar y listar películas </a></li>
   <li><a href="#editpel"> Editar películas listadas </a></li>
@@ -64,7 +64,7 @@ Aquí un ejemplo de como se ingresaran los datos:
 <img src="http://g.recordit.co/pzKkKEthDc.gif" alt="Agregar una pelicula"></img>
 ###### Recurso 4. Ejemplo de como se deben agregar las peliculas
 
-<h3 id="editpel"> Editar películas listadas </h3>
+<br><h3 id="editpel"> Editar películas listadas </h3>
 
 Del mismo modo que el usuario puede agregar películas, también las puede editar, para esto solo es necesario darle al botón mostrar en una de las listas, este nos mostrará los datos ingresados anteriormente con respecto a esa lista, y así mismo el usuario podrá editarlos. Al darle al botón de actualizar, los nuevos datos o los que no hayan sufrido cambio alguno se volverán a guardar temporalmente en esa lista, en caso de que se quieran volver a modificar.
 
@@ -73,7 +73,7 @@ Aquí un ejemplo de como editar los datos de una pelicula:
 <img src="http://g.recordit.co/tz3Xi3Hq18.gif" alt="Editar datos de una pelicula"></img>
 ###### Recurso 4. Ejemplo de como se deben editar los datos de una pelicula
 
-<h3 id="graficapel"> Graficador nombre de la película contra la duración de la misma </h3>
+<br><h3 id="graficapel"> Graficador nombre de la película contra la duración de la misma </h3>
 
 A la hora de ingresar una película también se creará una gráfica. Esta grafica nos mostrara dos datos, el nombre de la película y su duración en minutos. Cada película agregada se ubicará en la gráfica una junto a otra para así poder comparar los tiempos de duración de cada una. Por otro lado en la grafica habrá un botón de nombre “etiqueta”, el cual sirve para esconder o visualizar la duración de las películas de una forma mas precisa.
 
@@ -82,7 +82,7 @@ Aquí un ejemplo de la grafica y el botón etiqueta:
 <img src="http://g.recordit.co/KILIHK9SEo.gif" alt="Botón etiqueta de la grafica"></img>
 ###### Recurso 5. Ejemplo de la grafica y el botón etiqueta.
 
-<h3 id="idiomapel"> Cambiar el idioma del Software </h3>
+<br><h3 id="idiomapel"> Cambiar el idioma del Software </h3>
 
 Otra de las funcionalidades que posee este software, es que puedes alternar entre varios idiomas. Para cambiar el idioma tan solo basta con ir a la parte inferior derecha donde dice "Cambiar Idioma", en este se desplegará una lista con unos idiomas ya establecidos en el software y que al momento de elegir uno, todo el programa se cambiará automáticamente a ese idioma. 
 
@@ -103,7 +103,7 @@ Aquí un ejemplo de como cambiar el idioma:
 ###### Recurso 6. Ejemplo de como cambiar el idioma.
 
 
-<h3 id="configpel"> Cambiar la configuración del Software </h3>
+<br><h3 id="configpel"> Cambiar la configuración del Software </h3>
 
 Así mismo otra funcionalidad del software, es el poder configurarlo al gusto del usuario. Por el momento solo está habilitada la opción del cambio de color, es decir, cambiara el color de todo el programa dependiendo del escogido por el usuario. Próximamente se implementarán más opciones de configuración.
 
@@ -112,7 +112,7 @@ Aquí un ejemplo de como cambiar la configuración del software:
 <img src="http://g.recordit.co/jx7Qaa9DBA.gif" alt="Cambiar Color"></img>
 ###### Recurso 7. Ejemplo de como cambiar las configuraciones.
 
-<h3 id="raiznum"> Calcular la raíz de un numero</h3>
+<br><h3 id="raiznum"> Calcular la raíz de un numero</h3>
 
 Además de agregar películas, este software también permite calcular la raíz de un numero por medio de un DLL implementado.<br><br> 
 Pero antes de continuar….¿Qué es la raíz de un numero? Es la suma de sus dígitos hasta que el resultado sea solo un digito, por ejemplo, supongamos que tenemos el número 123, la raíz de este seria 6, esto es porque 1 + 2 + 3 = 6, otro ejemplo seria 999, el resultado de este es 9, esto es porque 9 + 9 + 9 = 27 y 2 + 7 = 9, ósea que si el primer resultado da un número que sea mayor o igual a dos dígitos este tendrá que volver a hacer la suma con el resultado obtenido hasta llegar a un numero de un solo digito.
@@ -138,7 +138,7 @@ Aquí un ejemplo de la logica que implementa este DLL:
 <img src="http://g.recordit.co/aG7Y1AxqNw.gif" alt="Logica Raiz de un Numero"></img>
 ###### Recurso 9. Ejemplo de la logica que se implementa el DLL.
 
-<h3 id="dllgraficador"> Dll Graficador </h3>
+<br><h3 id="dllgraficador"> Dll Graficador </h3>
 
 El siguiente Dll implementado es un graficador, el cual posee un montón de funcionalidades en cuanto a realizar graficas. En nuestro software, este es el encargado de crearnos gráficamente las barras correspondientes al nombre de las películas con su duración, y compararlas con las demás que hayan sido ingresadas. En cuanto a la lógica que utiliza, es que, al momento de ingresar una nueva película, el Dll se encargara de tomar los datos del nombre de esta y su duración, los ubicara en posiciones "X" y "Y", donde el Eje X hace referencia al nombre de la película y el Y a la duración de la misma. Realizara este proceso con todas las listas que tengamos actualmente en nuestro programa.
 
@@ -147,7 +147,7 @@ Aquí un ejemplo de como se Agregan diversas barras a la grafica cuando se ingre
 <img src="http://g.recordit.co/ce4cIrbniA.gif" alt="Barras de la grafica"></img>
 ###### Recurso 10. Ejemplo de como se Agregan diversas barras a la grafica cuando se ingresa una pelicula.
 
-<h2 id="autores">Autores</h2>
+<br><h2 id="autores">Autores</h2>
 
 <strong>Carlos Mauricio Chinchilla Rosales</strong> - <a href="https://github.com/Cchinchilla3">Cchinchilla3</a> <br>
 <strong>Diego Andrés Gualdrón Angarita </strong> - <a href="https://github.com/dgualdron04">dgualdron04</a> <br>
