@@ -1,6 +1,6 @@
 # Registro temporal de los datos de una película
 
-Este es un proyecto estudiantil, creado netamente en el lenguaje c# que consiste sobre un registro de películas en el que se almacenan temporalmente todos sus datos como lo serian el nombre de la película, su género, la duración en minutos, su director, el idioma en que se encuentra y si esta se encuentra subtitulada o no. Al momento de almacenar estos datos pertinentes se creará una tabla y una grafica al mismo tiempo.<br><br> 
+Este es un proyecto estudiantil, creado netamente en el lenguaje c# que consiste sobre un registro de películas en el que se almacenan temporalmente todos sus datos como lo serian el nombre de la película, su género, la duración en minutos, su director, el idioma en que se encuentra y si esta se encuentra subtitulada o no. Al momento de almacenar estos datos pertinentes se creará una tabla y una grafica al mismo tiempo(La cual esta implementada por un Dll graficador, que mas adelante en el documento se hablara de él).<br><br> 
 La tabla almacenara cada uno de los nombres de las diferentes películas ingresadas, así como si esta se encuentra activa o no, en diferentes listas. Además de eso en cada una de las listas, abra un botón, en donde si lo accionamos, nos desplegará todos los datos que hayan sido introducidos y sean referentes a esa película, y nos permitirá modificarlos a nuestro antojo, para seguido guardarlos y actualizar la lista en cuestión.<br><br>
 En cuanto a la grafica que se creara, esta nos mostrara un diagrama grafico entre la relación del nombre de cada una de las diferentes películas que se encuentran en las listas y sus respectivas duraciones. En caso tal de que se modifique el nombre o la duración de la película, también lo hará en la gráfica. Todo esto lo realizara en un mismo graficador automático. Así mismo esta grafica contara con un botón de etiqueta en donde si se oprime se ocultarán o se visualizaran todos los datos de las duraciones que se encuentren actualmente en la gráfica. 
 
@@ -123,24 +123,24 @@ Aquí un ejemplo de como sacar la raiz de un numero:
 <img src="http://g.recordit.co/4aIqLrpj6P.gif" alt="Raiz de un numero"></img>
 ###### Recurso 8. Ejemplo de como sacar la raiz de un numero.
 
-El software también cuenta con un apartado de créditos en los cuales se le hace alución a los creadores de este software, y también cuenta con un apartado de Ayuda, esto para que las personas que tengan algun problema o alguna duda sobre este, puedan enviar su petición de ayuda a los creados de este software.
+<br>Por otro lado, el software también cuenta con un apartado de créditos en los cuales se le hace alusión a los creadores del software, y también cuenta con un apartado de Ayuda, esto para que los usuarios que tengan algún problema o alguna duda sobre el proyecto, puedan enviar su petición de ayuda a los creados del mismo.
 
 <h2 id="dlls"> Sobre los Dlls</h2>
 
-Nuestro software cuenta con dos Dlls, estos tienen diferentes funcionalidades por si solos, para nuestro proyecto solo implementamos algunas de estas funcionalidades, para así lograr una funcionalidad más optima dentro de nuestro software.
+Nuestro software cuenta con dos Dlls. Cada uno de estos con diferentes funciones que podemos usar. Cabe destacar que para nuestro proyecto solo implementamos algunas de estas, y de esa forma lograr un programa optimo y de buen funcionamiento según los requisitos establecidos.  
 
 <h3 id="dllraiz"> Dll Raiz de un Numero </h3>
 
-Anteriormente hablabamos de la raiz de un numero, ahora hablamos del proceso que conlleva hacer este, para sacar la raiz numero como deciamos anteriormente tenemos que sumar todos sus digitos para esto hay que hacer un proceso en el cual hay que verificar cuantos numeros hay en este para que así sume los digitos necesarios y si es el caso volver a sumarlo, cuando se produce esta otra suma, esta se origina cuando el resultado del primer numero sumado es mayor o igual a 2 digitos, si esto es así el programa sumara de nuevo el resultado hasta llegar a 1 solo digito.
+Anteriormente se mencionó el Dll de la raíz de un número, ahora hablaremos del proceso que conlleva hacer esto mismo. Para lograrlo tenemos que sumar todos sus dígitos, por tanto, hay que hacer un proceso en el cual se verifica cuantos números existen en este, descomponiéndolo, y que de esa forma se sumen los dígitos por partes. En caso que el resultado de esta suma vuelva a dar 2 o más dígitos, se volverá a repetir el proceso anterior y seguirá hasta que de como resultado 1 solo digito en la suma, en ese momento se mostrara en pantalla cuál es ese resultante.
 
 Aquí un ejemplo de la logica que implementa este DLL:
 
 <img src="http://g.recordit.co/aG7Y1AxqNw.gif" alt="Logica Raiz de un Numero"></img>
-###### Recurso 9. Ejemplo de la logica que implementa el DLL.
+###### Recurso 9. Ejemplo de la logica que se implementa el DLL.
 
 <h3 id="dllgraficador"> Dll Graficador </h3>
 
-Este DLL tiene muchas funcionalidades con respecto a las graficas, este es el que nos ayuda dentro del software a crear diversos tipos de tablas, nosotros lo usamos para crear diversas barras con respecto al nombre y duracion de la pelicula, en este caso la logica que usa el DLL en nuestro software, al momento de ingresar una pelicula este DLL se encarga de tomar el dato del nombre y de la duración y los pone en "X" y "Y", X para el nombre de la pelicula y Y para la duración de esta.
+El siguiente Dll implementado es un graficador, el cual posee un montón de funcionalidades en cuanto a realizar graficas. En nuestro software, este es el encargado de crearnos gráficamente las barras correspondientes al nombre de las películas con su duración, y compararlas con las demás que hayan sido ingresadas. En cuanto a la lógica que utiliza, es que, al momento de ingresar una nueva película, el Dll se encargara de tomar los datos del nombre de esta y su duración, los ubicara en posiciones "X" y "Y", donde el Eje X hace referencia al nombre de la película y el Y a la duración de la misma. Realizara este proceso con todas las listas que tengamos actualmente en nuestro programa.
 
 Aquí un ejemplo de como se Agregan diversas barras a la grafica cuando se ingresa una pelicula:
 
